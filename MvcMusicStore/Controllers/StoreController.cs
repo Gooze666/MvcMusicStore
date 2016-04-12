@@ -6,8 +6,9 @@ using System.Web.Mvc;
 
 namespace MvcMusicStore.Controllers
 {
-    public class HomeController : Controller
+    public class StoreController : Controller
     {
+        // GET: Store
         public ActionResult Index()
         {
             return View();
